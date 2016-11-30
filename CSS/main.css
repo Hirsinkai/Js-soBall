@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#OriginalBall {
+    border: solid rgb(100,100,100) 1px;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+    #OriginalBall div {
+        border: 2px solid #999;
+        position: absolute;
+        text-align: center;
+    }
+
+        #OriginalBall div span {
+            font-size: 12px;
+            font-family: -webkit-pictograph;
+        }
+
+.pointer {
+    cursor: pointer;
+}
+
+.on {
+    box-shadow: 0 0 10px #111;
+    cursor: move;
+}
+
+.off {
+    box-shadow: 0 0 0 0;
+    cursor: pointer;
+}
